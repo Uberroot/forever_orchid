@@ -22,6 +22,7 @@ If the LED is solid green, it is in a watering cycle but the pump has paused to 
 If the LED is blinking green, the pump is active.
 
 # Tips
+* Add wiring_test() to setup() to test your connections and report values over serial.
 * Keep the tip of the water tube above the plant and the water resevior, otherwise you might have a siphon that dumps the entire tank (depending on the pump used). This was learned the hard way with a USB aquarium pump.
 * Put the light somewhere visible.
 * Keep an eye on your plant after setting this up in case something needs to be tweaked. Not responsible for a dead plant.
